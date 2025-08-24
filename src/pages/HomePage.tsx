@@ -111,12 +111,10 @@ const MelucaCare = () => {
           >
             <div className="absolute inset-0 bg-gradient-to-r from-black/60 via-black/40 to-black/60"></div>
           </div>
-          
-
           <div
             className={cn(
               "container mx-auto px-4 relative z-10 text-center text-white transition-all duration-1000",
-              isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8",
+              isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
             )}
           >
             <Badge className="mb-4 sm:mb-6 bg-emerald-600/20 text-emerald-100 border-emerald-400/30 backdrop-blur-sm">
@@ -124,8 +122,7 @@ const MelucaCare = () => {
             </Badge>
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-serif font-bold mb-4 sm:mb-6 leading-tight">
               Beauty <span className="text-emerald-400">Transforms</span>
-              <br className="hidden sm:inline" />
-              <span className="text-2xl md:text-4xl font-light">Lives</span>
+              <br className="sm:hidden" /> <span className="text-2xl md:text-4xl font-light">Lives</span>
             </h1>
             <p className="text-base sm:text-xl md:text-2xl mb-6 sm:mb-8 max-w-3xl mx-auto leading-relaxed text-gray-200">
               Experience world-class beauty services at Ethiopia's premier salon. Where artistry meets luxury, and every
@@ -153,12 +150,12 @@ const MelucaCare = () => {
           </div>
         </section>
 
-        
+        ---
 
         {/* Stats Section */}
-        <section className="py-16 bg-emerald-50">
-          <div className="container mx-auto px-4">
-            <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-8">
+        <section className="py-12 md:py-16 lg:py-20 bg-emerald-50">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
               {stats.map((stat) => (
                 <div key={stat.label} className="text-center">
                   <div className="flex justify-center mb-3">
@@ -172,18 +169,16 @@ const MelucaCare = () => {
           </div>
         </section>
 
-        
+        ---
 
         {/* Introduction Section */}
-        <section className="py-20 bg-white">
-          <div className="container mx-auto px-4">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16 items-center">
+        <section className="py-12 md:py-16 lg:py-20 bg-white">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
               <div className="space-y-6">
                 <Badge className="bg-emerald-100 text-emerald-700 hover:bg-emerald-100">About Meluca Care</Badge>
                 <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight">
-                  Where <span className="text-emerald-600">Beauty</span> Meets
-                  <br className="hidden md:block" />
-                  Excellence
+                  Where <span className="text-emerald-600">Beauty</span> Meets Excellence
                 </h2>
                 <p className="text-lg text-gray-600 leading-relaxed">
                   Located in the heart of Addis Ababa, Meluca Care has been transforming lives through the art of beauty
@@ -241,29 +236,28 @@ const MelucaCare = () => {
           </div>
         </section>
 
-        
+        ---
 
         {/* Services Section */}
-        <section id="services" className="py-20 bg-gray-50">
-          <div className="container mx-auto px-4">
+        <section id="services" className="py-12 md:py-16 lg:py-20 bg-gray-50">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-12 md:mb-16">
               <Badge className="mb-4 bg-emerald-100 text-emerald-700">Our Services</Badge>
               <h2 className="text-4xl md:text-5xl font-serif font-bold mb-6">Premium Beauty Services</h2>
               <p className="text-base md:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
                 Discover our comprehensive range of beauty services, each designed to enhance your natural radiance and
-                boost your confidence
+                boost your confidence.
               </p>
             </div>
-
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
               {services.map((service) => (
                 <Card
                   key={service.title}
                   className="group hover:shadow-2xl transition-all duration-500 border-0 shadow-lg hover:-translate-y-2 bg-white"
                 >
-                  <CardHeader className="text-center pb-4">
+                  <CardHeader className="text-center pb-4 relative">
                     {service.popular && (
-                      <Badge className="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-emerald-600 text-white">
+                      <Badge className="absolute -top-3 left-1/2 -translate-x-1/2 bg-emerald-600 text-white">
                         Most Popular
                       </Badge>
                     )}
@@ -298,17 +292,17 @@ const MelucaCare = () => {
           </div>
         </section>
 
-        
+        ---
 
         {/* Testimonials Section */}
-        <section className="py-20 bg-emerald-50">
-          <div className="container mx-auto px-4">
+        <section className="py-12 md:py-16 lg:py-20 bg-emerald-50">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-12 md:mb-16">
               <Badge className="mb-4 bg-emerald-600 text-white">Client Stories</Badge>
               <h2 className="text-4xl md:text-5xl font-serif font-bold mb-6">What Our Clients Say</h2>
               <p className="text-base md:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
                 Don't just take our word for it. Here's what our satisfied clients have to say about their
-                transformative experiences at Meluca Care
+                transformative experiences at Meluca Care.
               </p>
             </div>
             <div className="max-w-5xl mx-auto">
@@ -328,11 +322,11 @@ const MelucaCare = () => {
                   <p className="text-lg md:text-2xl text-gray-700 mb-6 italic leading-relaxed text-center">
                     {testimonials[activeTestimonial].content}
                   </p>
-                  <div className="flex items-center justify-center">
+                  <div className="flex flex-col sm:flex-row items-center justify-center">
                     <img
                       src={testimonials[activeTestimonial].image || "/placeholder.svg"}
                       alt={testimonials[activeTestimonial].name}
-                      className="w-14 h-14 md:w-16 md:h-16 rounded-full mr-4 object-cover shadow-lg"
+                      className="w-14 h-14 md:w-16 md:h-16 rounded-full mr-0 sm:mr-4 mb-4 sm:mb-0 object-cover shadow-lg"
                     />
                     <div className="text-center">
                       <p className="font-semibold text-lg">{testimonials[activeTestimonial].name}</p>
@@ -347,7 +341,7 @@ const MelucaCare = () => {
                     key={index}
                     className={cn(
                       "w-4 h-4 rounded-full transition-all duration-300",
-                      index === activeTestimonial ? "bg-emerald-600 scale-125" : "bg-emerald-300 hover:bg-emerald-400",
+                      index === activeTestimonial ? "bg-emerald-600 scale-125" : "bg-emerald-300 hover:bg-emerald-400"
                     )}
                     onClick={() => setActiveTestimonial(index)}
                     aria-label={`Go to testimonial ${index + 1}`}
@@ -358,19 +352,19 @@ const MelucaCare = () => {
           </div>
         </section>
 
-        
+        ---
 
         {/* Contact & Hours Section */}
-        <section className="py-20 bg-white">
-          <div className="container mx-auto px-4">
+        <section className="py-12 md:py-16 lg:py-20 bg-white">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-12 md:mb-16">
               <Badge className="mb-4 bg-emerald-100 text-emerald-700">Get In Touch</Badge>
               <h2 className="text-4xl md:text-5xl font-serif font-bold mb-6">Visit Our Salon</h2>
               <p className="text-base md:text-xl text-gray-600 max-w-2xl mx-auto">
-                Ready to transform your look? Contact us today or visit our beautiful salon in Addis Ababa
+                Ready to transform your look? Contact us today or visit our beautiful salon in Addis Ababa.
               </p>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16">
               <div className="space-y-8">
                 <h3 className="text-2xl font-serif font-bold mb-6">Salon Information</h3>
                 <div className="space-y-6">

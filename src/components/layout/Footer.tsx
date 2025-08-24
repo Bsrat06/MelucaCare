@@ -6,7 +6,7 @@ const Footer: React.FC = () => (
     <div className="container mx-auto px-4">
       <div className="grid md:grid-cols-4 gap-8 mb-12">
         <div className="md:col-span-2">
-          <img src="public/melucacare/melucacarelogo.png" alt="Meluca Care" className="h-10 mb-6" />
+          <img src="melucacare/melucacarelogo.png" alt="Meluca Care" className="h-10 mb-6" />
           <p className="text-gray-400 mb-6 leading-relaxed max-w-md">
             Your premier beauty destination in Addis Ababa, Ethiopia. Where artistry meets luxury, and every visit
             leaves you glowing with confidence.
