@@ -47,7 +47,7 @@ const MelucaCare = () => {
       name: "Deebisaa F.",
       content:
         "This Salon is the best one I've been to for years. Excellent staff, service and I always love my haircut every time. My first visit today was wonderful. Everybody was pleasant and professional.",
-      image: "/melucacare/testimonials/deebisaa.png",
+      image: "/melucacare/beautiful-african-woman-salon-client.png",
       rating: 5,
       service: "Hair Salon",
     },
@@ -153,7 +153,7 @@ const MelucaCare = () => {
           </div>
         </section>
 
-        ---
+        
 
         {/* Stats Section */}
         <section className="py-16 bg-emerald-50">
@@ -172,7 +172,7 @@ const MelucaCare = () => {
           </div>
         </section>
 
-        ---
+        
 
         {/* Introduction Section */}
         <section className="py-20 bg-white">
@@ -241,7 +241,7 @@ const MelucaCare = () => {
           </div>
         </section>
 
-        ---
+        
 
         {/* Services Section */}
         <section id="services" className="py-20 bg-gray-50">
@@ -298,7 +298,7 @@ const MelucaCare = () => {
           </div>
         </section>
 
-        ---
+        
 
         {/* Testimonials Section */}
         <section className="py-20 bg-emerald-50">
@@ -358,7 +358,7 @@ const MelucaCare = () => {
           </div>
         </section>
 
-        ---
+        
 
         {/* Contact & Hours Section */}
         <section className="py-20 bg-white">

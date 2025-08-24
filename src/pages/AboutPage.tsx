@@ -35,7 +35,7 @@ const AboutPage = () => {
       name: "Mahilet G.",
       content:
         "If you're looking for the best in hair and makeup artistry, look no further than this incredible hairstylist! From the moment you sit in their chair, you're greeted with a warm and welcoming energy.",
-      image: "/melucacare/smiling-ethiopian-woman-elegant-portrait.png",
+      image: "/melucacare/testimonials/mahilet.png",
       rating: 5,
       service: "Makeup Artistry",
     },
@@ -138,7 +138,7 @@ const AboutPage = () => {
           </div>
         </section>
 
-        ---
+        
 
         {/* Introduction Section */}
         <section className="py-20 bg-white">
@@ -192,7 +192,7 @@ const AboutPage = () => {
           </div>
         </section>
 
-        ---
+        
 
         {/* Why Choose Us Section */}
         <section className="py-20 bg-emerald-50">
@@ -254,7 +254,7 @@ const AboutPage = () => {
           </div>
         </section>
 
-        ---
+        
 
         {/* Team Section */}
         <section className="py-20 bg-white">
@@ -300,7 +300,7 @@ const AboutPage = () => {
           </div>
         </section>
 
-        ---
+        
 
         {/* Values Section */}
         <section className="py-20 bg-gray-50">
@@ -333,7 +333,7 @@ const AboutPage = () => {
           </div>
         </section>
 
-        ---
+        
 
         {/* Testimonials Section */}
         <section className="py-20 bg-emerald-50">
@@ -393,7 +393,7 @@ const AboutPage = () => {
           </div>
         </section>
 
-        ---
+        
 
         {/* Location Section */}
         <section className="py-20 bg-white">
@@ -482,7 +482,7 @@ const AboutPage = () => {
           </div>
         </section>
 
-        ---
+        
 
         {/* CTA Section */}
         <section className="py-20 bg-emerald-600 text-white">
