@@ -360,7 +360,7 @@ const ServicesPage = () => {
                   Book Now <ArrowRight className="ml-2 h-4 w-4" />
                 </a>
               </Button>
-              <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10" asChild>
+              <Button size="lg" variant="outline" className="border-white text-gray-900 hover:bg-white/10" asChild>
                 <a href="tel:0930963333">
                   Call Us: 093 096 3333
                 </a>
