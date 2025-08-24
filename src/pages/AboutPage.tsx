@@ -78,7 +78,7 @@ const AboutPage = () => {
       role: "Lead Stylist & Founder",
       image: "/melucacare/about/Screenshot 2025-08-24 182326.png",
       specialties: ["Bridal Makeup", "Hair Coloring", "Special Events"],
-      experience: "8+ years",
+      experience: "15+ years",
     },
     {
       name: "Sarah M.",
