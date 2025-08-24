@@ -150,7 +150,7 @@ const MelucaCare = () => {
           </div>
         </section>
 
-        ---
+        
 
         {/* Stats Section */}
         <section className="py-12 md:py-16 lg:py-20 bg-emerald-50">
@@ -169,7 +169,7 @@ const MelucaCare = () => {
           </div>
         </section>
 
-        ---
+        
 
         {/* Introduction Section */}
         <section className="py-12 md:py-16 lg:py-20 bg-white">
@@ -236,7 +236,7 @@ const MelucaCare = () => {
           </div>
         </section>
 
-        ---
+        
 
         {/* Services Section */}
         <section id="services" className="py-12 md:py-16 lg:py-20 bg-gray-50">
@@ -292,7 +292,7 @@ const MelucaCare = () => {
           </div>
         </section>
 
-        ---
+        
 
         {/* Testimonials Section */}
         <section className="py-12 md:py-16 lg:py-20 bg-emerald-50">
@@ -352,7 +352,7 @@ const MelucaCare = () => {
           </div>
         </section>
 
-        ---
+        
 
         {/* Contact & Hours Section */}
         <section className="py-12 md:py-16 lg:py-20 bg-white">
