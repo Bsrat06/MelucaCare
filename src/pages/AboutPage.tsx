@@ -74,9 +74,9 @@ const AboutPage = () => {
 
   const teamMembers = [
     {
-      name: "Meluca Founder",
+      name: "Melat Founder",
       role: "Lead Stylist & Founder",
-      image: "/melucacare/about/meluca-founder.png",
+      image: "/melucacare/about/Screenshot 2025-08-24 182326.png",
       specialties: ["Bridal Makeup", "Hair Coloring", "Special Events"],
       experience: "8+ years",
     },
